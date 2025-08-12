@@ -11,73 +11,14 @@ Adventure Planner is a React Native (Expo) app that helps users plan, search, an
 - **Milestone Tracking:** Mark milestones as completed and track progress.
 - **Customizable Duration:** Set time durations for each milestone.
 
-## Getting Started
+## Screenshots
 
-### Prerequisites
+<img width="545" height="1098" alt="Screenshot 2025-08-12 154059" src="https://github.com/user-attachments/assets/9c748990-711c-4f33-99fc-f846dbbf6fe5" />
+<img width="542" height="1076" alt="Screenshot 2025-08-12 154111" src="https://github.com/user-attachments/assets/90dbe5d7-10eb-41fe-97c2-2e4a36412c41" />
+<img width="554" height="1085" alt="Screenshot 2025-08-12 154202" src="https://github.com/user-attachments/assets/670548d0-1a73-4ddc-b32e-4644aa4944f0" />
 
-- [Node.js](https://nodejs.org/)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
-- Google Maps API Key (for Places and Maps)
 
-### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd Adventure-Planner
-   ```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables:**
-   - Create a `.env` file in the root directory:
-     ```
-     EXPO_PUBLIC_GRAPHHOPPER_API_KEY=your_google_maps_api_key
-     ```
-
-4. **Start the development server:**
-   ```bash
-   npx expo start
-   ```
-
-5. **Run on your device or emulator:**
-   - Scan the QR code with Expo Go, or run on an emulator.
-
-## Project Structure
-
-```
-Adventure-Planner/
-├── app/                # App screens and navigation
-│   ├── (tabs)/         # Tab screens: plan, navigate, profile
-│   └── _layout.tsx     # App layout
-├── components/         # Reusable UI components
-├── constants/          # App-wide constants
-├── hooks/              # Custom React hooks
-├── stores/             # Zustand state management
-├── types/              # TypeScript types
-├── utils/              # Utility functions (API, location, route optimization)
-├── assets/             # Fonts and images
-├── .env                # Environment variables
-├── package.json
-└── README.md
-```
-
-## Key Files
-
-- `app/(tabs)/plan.tsx` — Search and plan your route.
-- `app/(tabs)/navigate.tsx` — Navigate your optimized route.
-- `components/RouteMap.tsx` — Map display with milestones and routes.
-- `utils/placeSearchService.ts` — GraphHopper API integration.
-- `utils/routeOptimization.ts` — Route optimization algorithms.
-
-## Configuration
-
-- **GraphHopper API Key:**  
-  Add your API key to `.env` and configure it in `app.json` for Android/iOS if needed.
-
----
 
 **Enjoy planning your next
